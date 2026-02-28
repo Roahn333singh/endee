@@ -1,6 +1,6 @@
 services:
   endee-oss:
-    image: endee-oss:latest
+    image: endeeio/endee-server:latest
     container_name: endee-oss
     ports:
       - "8080:8080"
